@@ -2,7 +2,7 @@
 
 * Requires at least: 5.6
 * Tested up to: 6.1.1
-* Requires PHP: 7.4
+* Requires PHP: 8.0
 * License: [MIT](LICENSE)
 * License URI: https://mit-license.org/
 * [Terms of usage](TERMS.md)
@@ -14,6 +14,10 @@ This plugin integrates with the [SSO2 single sign on solution](https://docs.worl
 From version 1.2.0 the plugin now also supports [Tulo Paywall](https://docs.worldoftulo.com/paywall/core_concept/overview/).
 
 ## Changelog
+
+### 1.3.1
+
+* Upgraded the bundled `firebase/php-jwt` library from 6.4.0 to 7.1.1 to resolve CVE-2025-45769. The library now requires PHP 8.0, so the plugin's minimum PHP version is 8.0.
 
 ### 1.3.0
 
